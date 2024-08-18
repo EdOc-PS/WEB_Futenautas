@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+
+:root{
+    --black: #000;
+    --green: #379777;
+    --gray: #222222;
+    --color_font:#E0E0E0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica';
+}
+
+i{
+    color: var(--gray);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--green);
+}
