@@ -4,7 +4,7 @@
 :root{
     --black: #000;
     --green: #379777;
-    --gray: #222222;
+    --gray: #444444;
     --color_font:#E0E0E0;
 }
 
@@ -14,6 +14,7 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Geologica';
+    list-style: none;
 }
 
 i{
@@ -27,3 +28,7 @@ a{
     text-decoration: none;
     color: var(--green);
 }
+body{
+    background-color: var(--black);
+}
+
